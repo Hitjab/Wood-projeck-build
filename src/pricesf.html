@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    @include('partials/head.html')
+<body class="page">
+    @include('partials/headerbg.html')
+    <main class="swiper-main">
+        <h2>PRICE LIST</h2>
+        <div class="swiper__wrap">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide slide-box">
+                    <img src="img/price.png" alt="">
+                  </div>
+                  <div class="swiper-slide slide-box">
+                    <img src="img/price.png" alt="">
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </div>
+        
+    </main>
+    <div class="d-none">
+        @include('partials/swiper.html')
+    </div>
+        @include('partials/footer.html')
+</body>
+</html>

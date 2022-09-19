@@ -1,0 +1,226 @@
+
+.quest-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    h2{
+        font-family: 'Inter';
+        text-align: right;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 132.9%;
+        text-transform: uppercase;
+        color: #F5F5F5;
+        @media  (max-width:768px) {
+            font-size: 45px;
+        }
+    }
+}
+.quest {
+		&__container {
+            max-width: 1320px;
+            padding: 0 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            @media  (max-width:768px) {
+                justify-content: center;
+            }
+		}
+}
+.container {
+    
+		&__input {
+            width: 50%;
+            margin-bottom: 100px;
+            @media  (max-width:768px) {
+                width: 100%;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                input{
+                    max-width: 600px;
+                    width: 100%;
+                    padding: 18px 37px;
+                    border: 3px solid #728BAD;
+                    border-radius: 42px;
+                    background-color: transparent;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 139.4%;
+                    color: #f5F5F5;
+                    transition: 0.2s;
+                    @media  (max-width:768px) {
+                        max-width: none;
+                        width: 100%;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.13);
+                    }
+                }
+                textarea{
+                    max-width: 600px;
+                    height: 250px;
+                    width: 100%;
+                    border: 4px solid #728BAD;
+                    border-radius: 42px;
+                    padding: 18px 47px;
+                    font-family: 'Inter';
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 139.4%;
+                    background-color: transparent;
+                    color: #f5F5F5;
+                    transition: 0.2s;
+                    @media  (max-width:768px) {
+                        max-width: none;
+                        width: 100%;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.13);
+                    }
+                }
+                .button-input{
+                    transition: 0.4s;
+                    max-width: 300px;
+                    padding: 11px 70px;
+                    background: #728BAD;
+                    border-radius: 42px;
+                    color: #F5F5F5;
+                    display: block;
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 36px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #D5DCEE;
+                        color: #8E3921;
+                    }
+                    @media (max-width:768px) {
+                        margin: 0 auto;
+                    }
+                }
+            }
+		}
+		&__input-info {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            @media  (max-width:768px) {
+                display: none;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 139.4%;
+                text-align: right;
+                color: #F5F5F5;
+                max-width: 550px;
+            }
+            img{
+                top: 170px;
+                left: 15%;
+                position: absolute;
+                z-index: -1;
+            }
+		}
+}
+.footer {
+    width: 100%;
+    background: #222021;
+    margin: 0 auto;
+    box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
+    &__container {
+        max-width:1250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0px;
+        margin: 0 auto;
+    }
+    &__container-privat {
+        margin-top: 35px;
+        a{
+            color: white;
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 139.4%;
+            &:hover{
+                color: #8E3921;
+            }
+        }
+    }
+}
+.d-none{
+    display: none;
+    @media  (max-width:768px) {
+        display: block;
+    }
+}
+.container {
+    &__info {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media  (max-width:823px) {
+            justify-content: space-evenly;
+        }
+        @media  (max-width:768px) {
+            gap: 30px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+    &__ifo-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        &:nth-child(2){
+            @media  (max-width:768px) {
+                order: 3;
+            }
+        }
+        a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 139.4%;
+        color: #F5F5F5;
+        transition: 0.2s;
+        &:hover{
+            color: #8E3921;
+        }
+    }
+}
+.info-item {
+    &__text {
+        a{
+            max-width: 120px;
+        }
+        
+    }
+}
+}

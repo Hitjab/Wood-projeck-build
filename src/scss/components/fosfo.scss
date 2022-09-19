@@ -1,0 +1,67 @@
+.fosfo-main{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+}
+.pos-img-fosfo{
+    position: absolute;
+    top: 0;
+    max-width: 905px;
+    width: 100%;
+    z-index: -30;
+    background: rgba(34, 32, 33, 0.49);
+    border-radius: 3px 62px 62px 0px;
+}
+.fosfo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    img{
+        max-width: 1100px;
+        width: 100%;
+    }
+}
+.fosfo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    h2{
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 107.9%;
+        color: #F5F5F5;
+    }
+    p{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFDBBB;
+    }
+    .btn__box{
+        transition: 0.4s;
+        max-width: 750px;
+        a{
+            display: inline-block;
+        text-align: center;
+        padding: 11px 60px;
+        background-color: #728BAD;
+        color: #f5f5f5;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        border-radius: 42px;
+        transition: 0.4s;
+        &:hover{
+            background-color: #D5DCEE;
+            color: #8E3921;
+        }
+        }
+    }
+}

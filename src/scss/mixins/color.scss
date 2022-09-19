@@ -1,0 +1,21 @@
+@mixin whitef {
+    color: #f5f5f5;
+}
+@mixin brown {
+    color: #1E0C06;
+}
+@mixin brownbg {
+    background-color: #1E0C06;
+}
+@mixin btn-color {
+    color: #728BAD;
+}
+@mixin btn-hover {
+    color: #D5DCEE;
+}
+@mixin color-hover {
+    color: #A3B8D7;
+}
+@mixin tran-text {
+    transition: .2s;
+}

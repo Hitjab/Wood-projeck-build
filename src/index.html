@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk" class="page">
+  @include('partials/head.html')
+  <body class="page__body">
+    <main class="header-main">
+      <!-- @include('partials/headerbg.html') -->
+      @include('partials/header.html')
+        <img src="img/bg-shape.png" alt="bg-shape" class="bg-shape">
+      <div class="container-left__shape">
+          <div class="left-shape__box">
+            <div class="text-box">
+              <div class="text-box__text">
+                <h2>Solid wood products</h2>
+                <p>Oak, beech, ash from 1700 CZK per m3</p>
+                @include('partials/global-btn.html')
+              </div>
+              <div class="text-box__border">
+                <img src="img/ico/wood/wod2.png" alt="wood">
+              </div>
+            </div>
+            
+            <div class="img-box">
+              <div class="img-box__container imgtl">
+                <img src="img/ico/wood/wod1.png" alt="wood">
+              </div>
+              <div class="img-box__container imgt">
+                <img src="img/ico/wood/iwod3.png" alt="wood">
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <!-- work -->
+    @include('partials/woork.html')
+    <!-- swiper -->
+    @include('partials/swiper.html')
+    <!-- advant -->
+    <main class="advant-main">
+      <div class="advant__container">
+        <h2>Advantages
+          working with us</h2>
+          <div class="container__box">
+            <div class="container__box-item">
+              <img src="img/video.png" alt="video">
+            </div>
+            <div class="container__box-item">
+              <ul>
+                <li>In-house carpentry production</li>
+                <li>We only treat wood with environmentally friendly and safe products</li>
+                <li>Prices from the manufacturer, no extra charges</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn__text-blox">
+            <a href="fosfo.html">Receive a consultation</a>
+          </div>
+      </div>
+    </main>
+    @include('partials/about-us.html')
+    @include('partials/footer.html')
+  </body>
+</html>

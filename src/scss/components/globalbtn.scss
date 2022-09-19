@@ -1,0 +1,21 @@
+.btn__text-blox{
+    transition: 0.4s;
+    max-width: 750px;
+    a{
+        display: inline-block;
+        text-align: center;
+        padding: 11px 60px;
+        background-color: #728BAD;
+        color: #f5f5f5;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        border-radius: 42px;
+        transition: 0.4s;
+        &:hover{
+            background-color: #D5DCEE;
+            color: #8E3921;
+        }
+    }
+}

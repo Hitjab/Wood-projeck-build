@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// підключення компонентів до сторінки
+@import "./components/header";
+@import "./components/headbg";
+@import "./index";
+@import "./components/globalbtn.scss";
+@import "./components/woork.scss";
+@import "./components/swiper";
+@import "./components/about-us.scss";
+@import "./components/footre.scss";
+@import "./components/galery.scss";
+@import "./components/price.scss";
+@import "./components/contact-t.scss";
+@import "./components/fosfo.scss";
